@@ -1,0 +1,10 @@
+.TodoItem {
+  margin-left: auto;
+  margin-right: auto;
+
+  border-radius: 5px;
+  background-color: #f67280;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+}
