@@ -1,14 +1,31 @@
 import React from "react";
-import { MdCheckBox, MdCheckBoxOutlineBlank } from "react-icons/md";
 import "./TodoItem.css";
+// import TodoList from "TodoList";
+import * as Icon from "react-icons/fi";
+import Checkbox from "react-custom-checkbox";
 
-const TodoItem = (todo) => {
+const TodoItem = ({ todo }) => {
   const { id, text, checked } = todo;
+  console.log("todo2", todo);
   return (
     <div className="TodoItem">
       <div className={`content ${checked ? "checked" : ""}`}>
-        {checked ? <MdCheckBox /> : <MdCheckBoxOutlineBlank />}
-        <div>{text}</div>
+        {/* <div>{text}</div> */}
+
+        {/* 체크박스 */}
+        <Checkbox
+          checked={checked}
+          icon={
+            <img
+              src={require("../assets/checkedImage.png")}
+              style={{ width: 24 }}
+              alt=""
+            />
+          }
+          borderColor="#ECECEC"
+          borderRadius={10}
+          size={18}
+        />
       </div>
     </div>
   );
