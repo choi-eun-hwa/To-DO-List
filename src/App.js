@@ -21,10 +21,11 @@ const App = () => {
       checked: true,
     },
   ]);
+
   return (
-    <Template todoLength={todos.length}>
-      <TodoList todos={todos} />
-    </Template>
+    // <Template todoLength={todos.length}>
+    <TodoList todos={todos} />
+    // </Template>
   );
 };
 

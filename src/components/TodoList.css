@@ -4,3 +4,32 @@ TodoList {
   margin-right: auto;
   padding-bottom: 20px;
 }
+
+.TodoList {
+  /* width: 90vw; */
+  width: 50vw;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20px;
+}
+
+.TodoContents {
+  /* width: 90vw; */
+  width: 50vw;
+  height: 83px;
+  margin-left: auto;
+  margin-right: auto;
+  /* padding-bottom: 20px; */
+  background: linear-gradient(
+    93.41deg,
+    rgba(163, 201, 226, 0.6) 0%,
+    rgba(163, 201, 226, 0.6) 0.01%,
+    rgba(158, 134, 234, 0.371912) 134.76%,
+    rgba(150, 24, 247, 0) 134.77%
+  );
+  border-radius: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

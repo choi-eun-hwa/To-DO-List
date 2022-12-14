@@ -1,0 +1,19 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "text": "나만의 애플케이션만들기",
+      "checked": true
+    },
+    {
+      "id": 2,
+      "text": "소그룹 회의",
+      "checked": true
+    },
+    {
+      "id": 3,
+      "text": "블로깅",
+      "checked": true
+    }
+  ]
+}
