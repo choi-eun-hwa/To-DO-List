@@ -104,7 +104,7 @@ function TodoCreate({ insert }) {
           <InsertForm>
             <Input
               autoFocus
-              placeholder="할 일을 입력 후, Enter 를 누르세요"
+              placeholder="할 일을 입력 후, 확인 를 누르세요"
               onChange={(e) => setText(e.target.value)}
             />
             {/* <AwesomeButton
@@ -119,7 +119,7 @@ function TodoCreate({ insert }) {
             {/* <button onClick={insertPress}>insert</button> */}
             <div className="frame">
               <button className="custom-btn btn-8" onClick={insertPress}>
-                <span style={{ fontWeight: "bold", fontSize: 18 }}>Insert</span>
+                <span style={{ fontWeight: "bold", fontSize: 18 }}>확인</span>
               </button>
             </div>
           </InsertForm>
