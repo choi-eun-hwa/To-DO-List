@@ -19,7 +19,7 @@ const App = () => {
     },
     {
       id: 3,
-      text: "블로깅",
+      text: "블로깅하기",
       checked: true,
     },
   ]);
