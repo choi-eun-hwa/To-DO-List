@@ -1,5 +1,6 @@
-import React from "react";
-import styled from "styled-components";
+// eslint-disable-next-line no-unused-vars
+import React from 'react';
+import styled from 'styled-components';
 
 const TodoHeadBlock = styled.div`
   padding-top: 48px;

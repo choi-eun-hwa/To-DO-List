@@ -1,9 +1,10 @@
-import React, { useState, useEffect } from "react";
-import styled, { css } from "styled-components";
-import { MdAdd } from "react-icons/md";
+// eslint-disable-next-line no-unused-vars
+import React, { useState, useEffect } from 'react';
+import styled, { css } from 'styled-components';
+import { MdAdd } from 'react-icons/md';
 // import { AwesomeButton } from "react-awesome-button";
 // import "react-awesome-button/dist/styles.css";
-import "./TodoCreate.css";
+import './TodoCreate.css';
 
 const CircleButton = styled.button`
   background: #38d9a9;
@@ -82,9 +83,10 @@ const Input = styled.input`
   margin-right: 20px;
 `;
 
+// eslint-disable-next-line react/prop-types
 function TodoCreate({ insert }) {
   const [open, setOpen] = useState(false);
-  const [text, setText] = useState("");
+  const [text, setText] = useState('');
 
   const onToggle = () => setOpen(!open);
 
@@ -103,6 +105,7 @@ function TodoCreate({ insert }) {
         <InsertFormPositioner>
           <InsertForm>
             <Input
+              // eslint-disable-next-line jsx-a11y/no-autofocus
               autoFocus
               placeholder="할 일을 입력 후, 확인 를 누르세요"
               onChange={(e) => setText(e.target.value)}
@@ -119,7 +122,7 @@ function TodoCreate({ insert }) {
             {/* <button onClick={insertPress}>insert</button> */}
             <div className="frame">
               <button className="custom-btn btn-8" onClick={insertPress}>
-                <span style={{ fontWeight: "bold", fontSize: 18 }}>확인</span>
+                <span style={{ fontWeight: 'bold', fontSize: 18 }}>확인</span>
               </button>
             </div>
           </InsertForm>
